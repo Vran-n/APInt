@@ -1,0 +1,11 @@
+[package]
+name = "vran-n/apint"
+description = "Arbitrary precision integer library for lua and roblox games."
+license = "MIT"
+authors = ["CrabGuy", "Vran_n"]
+version = "1.0.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+exclude = ["logo.png, rokit.toml, selene.toml, Readme.md"]
+
+[dependencies]
