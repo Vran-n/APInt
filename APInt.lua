@@ -421,7 +421,7 @@ end
 
 local TOSTRING_DIVISOR_DIGITS = math_floor(math_log10(BASE))
 local TOSTRING_DIVISOR = nil
-local PADDING_FORMAT = "%0" .. TOSTRING_DIVISOR_DIGITS .. "d"
+local PADDING_FORMAT = "%0" .. TOSTRING_DIVISOR_DIGITS .. ".0f"
 
 local function __tostring(x)
     if not TOSTRING_DIVISOR then
