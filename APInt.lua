@@ -1,3 +1,4 @@
+warn("Division algorithm is unstable in APInt library, wait for an update before using")
 local APInt = {}
 local APInt_metatable = {}
 APInt.__index = APInt
