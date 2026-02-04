@@ -4,4 +4,4 @@
 # New tools can be added by running `rokit add <tool>` in a terminal.
 
 [tools]
-selene = "Kampfkarren/selene@0.29.0"
+selene = "Kampfkarren/selene@0.30.0"
